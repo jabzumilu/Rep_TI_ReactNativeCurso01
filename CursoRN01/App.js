@@ -27,7 +27,7 @@ import {
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>Hola Melvahooo</Text>
+      <Text>Hola A Todos</Text>
     </SafeAreaView>
   );
 };
