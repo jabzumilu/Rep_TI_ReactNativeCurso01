@@ -16,6 +16,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import Sudoku from './componentes/Sudoku'
+
 import {
   Header,
   LearnMoreLinks,
@@ -26,9 +28,14 @@ import {
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text>Hola A Todos</Text>
-    </SafeAreaView>
+    <Fragment>
+      <StatusBar barStyle="dark-content" />
+      <SafeAreaView>
+        <View style={{display:"flex", flexDirection: "column", justfyContent: "Center", alignItem: "center", height: "100%", width: "100%", backgroundColor:"#456" }}>
+          <Sudoku />
+        </View>
+      </SafeAreaView>
+    </Fragment>
   );
 };
 
