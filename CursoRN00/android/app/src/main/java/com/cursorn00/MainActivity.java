@@ -1,4 +1,4 @@
-package com.cursorn01;
+package com.cursorn00;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "CursoRN01";
+        return "CursoRN00";
     }
 }

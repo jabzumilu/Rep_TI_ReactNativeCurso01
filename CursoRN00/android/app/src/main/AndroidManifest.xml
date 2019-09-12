@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.cursorn01">
+  package="com.cursorn00">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

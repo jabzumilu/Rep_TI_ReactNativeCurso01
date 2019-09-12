@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.cursorn01"
+        applicationId "com.cursorn00"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CursoRN01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CursoRN01Tests.m */; };
+		00E356F31AD99517003FC87E /* CursoRN00Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CursoRN00Tests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* CursoRN01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CursoRN01Tests.m */; };
-		568A19CB713097CA0B054DD5 /* libPods-CursoRN01-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA37C0C38EB7BC6605F6484 /* libPods-CursoRN01-tvOSTests.a */; };
-		5D2FA4352E987641D4C932C5 /* libPods-CursoRN01-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7445553A89F967A767AD08 /* libPods-CursoRN01-tvOS.a */; };
-		62FF87FAAAD676AB87D9B7C3 /* libPods-CursoRN01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705A59D3AE4BC50CD54C52F /* libPods-CursoRN01.a */; };
-		70C7ED13EA85C8E2E4530C7B /* libPods-CursoRN01Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837217728B2C9C2B1F9F5D8B /* libPods-CursoRN01Tests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* CursoRN00Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CursoRN00Tests.m */; };
+		6658C75B609E08B4AFBCCFDD /* libPods-CursoRN00.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8447667BA574EE3295454B38 /* libPods-CursoRN00.a */; };
+		7FD7F4EB7A2FC6117A439C79 /* libPods-CursoRN00-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86961298E8E37486923E544E /* libPods-CursoRN00-tvOSTests.a */; };
+		8A1FC450F2E8634F7D44EA2D /* libPods-CursoRN00Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616D35475ECAF6BE4E558D5B /* libPods-CursoRN00Tests.a */; };
+		E0FAB7BF071B76356586B2DA /* libPods-CursoRN00-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7671EFBD241830909F593406 /* libPods-CursoRN00-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = CursoRN01;
+			remoteInfo = CursoRN00;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "CursoRN01-tvOS";
+			remoteInfo = "CursoRN00-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* CursoRN01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoRN01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CursoRN00Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoRN00Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CursoRN01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CursoRN01Tests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* CursoRN01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoRN01.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CursoRN01/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CursoRN01/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CursoRN00Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CursoRN00Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CursoRN00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoRN00.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CursoRN00/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CursoRN00/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CursoRN01/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CursoRN01/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CursoRN01/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* CursoRN01-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CursoRN01-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* CursoRN01-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CursoRN01-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E810328C4C28274F9364844 /* Pods-CursoRN01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01Tests.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN01Tests/Pods-CursoRN01Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4EA37C0C38EB7BC6605F6484 /* libPods-CursoRN01-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN01-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5705A59D3AE4BC50CD54C52F /* libPods-CursoRN01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D4B4C91A5862245AFC49599 /* Pods-CursoRN01-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN01-tvOS/Pods-CursoRN01-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7DAF536A9B1813C5221652DF /* Pods-CursoRN01-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN01-tvOSTests/Pods-CursoRN01-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		837217728B2C9C2B1F9F5D8B /* libPods-CursoRN01Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN01Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		913FDD5F1E5AD96531D9ACEF /* Pods-CursoRN01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN01/Pods-CursoRN01.debug.xcconfig"; sourceTree = "<group>"; };
-		B4B4BCF2F927473129B221C2 /* Pods-CursoRN01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01Tests.release.xcconfig"; path = "Target Support Files/Pods-CursoRN01Tests/Pods-CursoRN01Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCD008D3823E2991C8289E3A /* Pods-CursoRN01-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CursoRN01-tvOS/Pods-CursoRN01-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		DA02A07CCC3AF730DE230398 /* Pods-CursoRN01-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CursoRN01-tvOSTests/Pods-CursoRN01-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		E75CAC074E7099BB5789391A /* Pods-CursoRN01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN01.release.xcconfig"; path = "Target Support Files/Pods-CursoRN01/Pods-CursoRN01.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CursoRN00/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CursoRN00/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CursoRN00/main.m; sourceTree = "<group>"; };
+		1B773EB0D3926A77DCFEF034 /* Pods-CursoRN00Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00Tests.release.xcconfig"; path = "Target Support Files/Pods-CursoRN00Tests/Pods-CursoRN00Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB582115C60E690E3FBDFEA /* Pods-CursoRN00-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN00-tvOS/Pods-CursoRN00-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* CursoRN00-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CursoRN00-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* CursoRN00-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CursoRN00-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3BB51A771A3E5200313B99 /* Pods-CursoRN00Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00Tests.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN00Tests/Pods-CursoRN00Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		616D35475ECAF6BE4E558D5B /* libPods-CursoRN00Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN00Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6182DFF2A32D96E96BF12181 /* Pods-CursoRN00-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN00-tvOSTests/Pods-CursoRN00-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F1D98D97F8AD11B0B1A5833 /* Pods-CursoRN00-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CursoRN00-tvOSTests/Pods-CursoRN00-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7176460D49342B918931632D /* Pods-CursoRN00.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00.debug.xcconfig"; path = "Target Support Files/Pods-CursoRN00/Pods-CursoRN00.debug.xcconfig"; sourceTree = "<group>"; };
+		7671EFBD241830909F593406 /* libPods-CursoRN00-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN00-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD2D418866E567AB5950CC3 /* Pods-CursoRN00-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CursoRN00-tvOS/Pods-CursoRN00-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8447667BA574EE3295454B38 /* libPods-CursoRN00.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN00.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86961298E8E37486923E544E /* libPods-CursoRN00-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN00-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F95632928324D5F6FFBA4A /* Pods-CursoRN00.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoRN00.release.xcconfig"; path = "Target Support Files/Pods-CursoRN00/Pods-CursoRN00.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FC7445553A89F967A767AD08 /* libPods-CursoRN01-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CursoRN01-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C7ED13EA85C8E2E4530C7B /* libPods-CursoRN01Tests.a in Frameworks */,
+				8A1FC450F2E8634F7D44EA2D /* libPods-CursoRN00Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62FF87FAAAD676AB87D9B7C3 /* libPods-CursoRN01.a in Frameworks */,
+				6658C75B609E08B4AFBCCFDD /* libPods-CursoRN00.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2FA4352E987641D4C932C5 /* libPods-CursoRN01-tvOS.a in Frameworks */,
+				E0FAB7BF071B76356586B2DA /* libPods-CursoRN00-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568A19CB713097CA0B054DD5 /* libPods-CursoRN01-tvOSTests.a in Frameworks */,
+				7FD7F4EB7A2FC6117A439C79 /* libPods-CursoRN00-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CursoRN01Tests */ = {
+		00E356EF1AD99517003FC87E /* CursoRN00Tests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CursoRN01Tests.m */,
+				00E356F21AD99517003FC87E /* CursoRN00Tests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CursoRN01Tests;
+			path = CursoRN00Tests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* CursoRN01 */ = {
+		059E09C208A4CD3615EE4DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7176460D49342B918931632D /* Pods-CursoRN00.debug.xcconfig */,
+				89F95632928324D5F6FFBA4A /* Pods-CursoRN00.release.xcconfig */,
+				2CB582115C60E690E3FBDFEA /* Pods-CursoRN00-tvOS.debug.xcconfig */,
+				7FD2D418866E567AB5950CC3 /* Pods-CursoRN00-tvOS.release.xcconfig */,
+				6182DFF2A32D96E96BF12181 /* Pods-CursoRN00-tvOSTests.debug.xcconfig */,
+				6F1D98D97F8AD11B0B1A5833 /* Pods-CursoRN00-tvOSTests.release.xcconfig */,
+				4F3BB51A771A3E5200313B99 /* Pods-CursoRN00Tests.debug.xcconfig */,
+				1B773EB0D3926A77DCFEF034 /* Pods-CursoRN00Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CursoRN00 */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +149,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = CursoRN01;
+			name = CursoRN00;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				5705A59D3AE4BC50CD54C52F /* libPods-CursoRN01.a */,
-				FC7445553A89F967A767AD08 /* libPods-CursoRN01-tvOS.a */,
-				4EA37C0C38EB7BC6605F6484 /* libPods-CursoRN01-tvOSTests.a */,
-				837217728B2C9C2B1F9F5D8B /* libPods-CursoRN01Tests.a */,
+				8447667BA574EE3295454B38 /* libPods-CursoRN00.a */,
+				7671EFBD241830909F593406 /* libPods-CursoRN00-tvOS.a */,
+				86961298E8E37486923E544E /* libPods-CursoRN00-tvOSTests.a */,
+				616D35475ECAF6BE4E558D5B /* libPods-CursoRN00Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* CursoRN01 */,
+				13B07FAE1A68108700A75B9A /* CursoRN00 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CursoRN01Tests */,
+				00E356EF1AD99517003FC87E /* CursoRN00Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				A13E581E2D89FAEC34A29DF4 /* Pods */,
+				059E09C208A4CD3615EE4DF0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,38 +190,22 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* CursoRN01.app */,
-				00E356EE1AD99517003FC87E /* CursoRN01Tests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* CursoRN01-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* CursoRN01-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CursoRN00.app */,
+				00E356EE1AD99517003FC87E /* CursoRN00Tests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* CursoRN00-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* CursoRN00-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A13E581E2D89FAEC34A29DF4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				913FDD5F1E5AD96531D9ACEF /* Pods-CursoRN01.debug.xcconfig */,
-				E75CAC074E7099BB5789391A /* Pods-CursoRN01.release.xcconfig */,
-				7D4B4C91A5862245AFC49599 /* Pods-CursoRN01-tvOS.debug.xcconfig */,
-				CCD008D3823E2991C8289E3A /* Pods-CursoRN01-tvOS.release.xcconfig */,
-				7DAF536A9B1813C5221652DF /* Pods-CursoRN01-tvOSTests.debug.xcconfig */,
-				DA02A07CCC3AF730DE230398 /* Pods-CursoRN01-tvOSTests.release.xcconfig */,
-				3E810328C4C28274F9364844 /* Pods-CursoRN01Tests.debug.xcconfig */,
-				B4B4BCF2F927473129B221C2 /* Pods-CursoRN01Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CursoRN01Tests */ = {
+		00E356ED1AD99517003FC87E /* CursoRN00Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CursoRN01Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CursoRN00Tests" */;
 			buildPhases = (
-				BE5BF838E56E6006E5439289 /* [CP] Check Pods Manifest.lock */,
+				F9E258DDCB9A923322A2C81C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -215,16 +215,16 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CursoRN01Tests;
-			productName = CursoRN01Tests;
-			productReference = 00E356EE1AD99517003FC87E /* CursoRN01Tests.xctest */;
+			name = CursoRN00Tests;
+			productName = CursoRN00Tests;
+			productReference = 00E356EE1AD99517003FC87E /* CursoRN00Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* CursoRN01 */ = {
+		13B07F861A680F5B00A75B9A /* CursoRN00 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CursoRN01" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CursoRN00" */;
 			buildPhases = (
-				3220FF01AE892FE14000E498 /* [CP] Check Pods Manifest.lock */,
+				DF0C615300B45552874CED99 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -235,16 +235,16 @@
 			);
 			dependencies = (
 			);
-			name = CursoRN01;
-			productName = CursoRN01;
-			productReference = 13B07F961A680F5B00A75B9A /* CursoRN01.app */;
+			name = CursoRN00;
+			productName = CursoRN00;
+			productReference = 13B07F961A680F5B00A75B9A /* CursoRN00.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* CursoRN01-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* CursoRN00-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN01-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN00-tvOS" */;
 			buildPhases = (
-				8E5E0B9923EA04C91507F750 /* [CP] Check Pods Manifest.lock */,
+				881D65AEE0F1FB6A522D926F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -255,16 +255,16 @@
 			);
 			dependencies = (
 			);
-			name = "CursoRN01-tvOS";
-			productName = "CursoRN01-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* CursoRN01-tvOS.app */;
+			name = "CursoRN00-tvOS";
+			productName = "CursoRN00-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* CursoRN00-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* CursoRN01-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* CursoRN00-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN01-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN00-tvOSTests" */;
 			buildPhases = (
-				35F2F6FC34877493324C45D4 /* [CP] Check Pods Manifest.lock */,
+				B925645EB9A2A3787750B671 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "CursoRN01-tvOSTests";
-			productName = "CursoRN01-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* CursoRN01-tvOSTests.xctest */;
+			name = "CursoRN00-tvOSTests";
+			productName = "CursoRN00-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* CursoRN00-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CursoRN01" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CursoRN00" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* CursoRN01 */,
-				00E356ED1AD99517003FC87E /* CursoRN01Tests */,
-				2D02E47A1E0B4A5D006451C7 /* CursoRN01-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* CursoRN01-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* CursoRN00 */,
+				00E356ED1AD99517003FC87E /* CursoRN00Tests */,
+				2D02E47A1E0B4A5D006451C7 /* CursoRN00-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* CursoRN00-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -387,7 +387,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3220FF01AE892FE14000E498 /* [CP] Check Pods Manifest.lock */ = {
+		881D65AEE0F1FB6A522D926F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,14 +402,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CursoRN01-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CursoRN00-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		35F2F6FC34877493324C45D4 /* [CP] Check Pods Manifest.lock */ = {
+		B925645EB9A2A3787750B671 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,14 +424,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CursoRN01-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CursoRN00-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8E5E0B9923EA04C91507F750 /* [CP] Check Pods Manifest.lock */ = {
+		DF0C615300B45552874CED99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,14 +446,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CursoRN01-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CursoRN00-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE5BF838E56E6006E5439289 /* [CP] Check Pods Manifest.lock */ = {
+		F9E258DDCB9A923322A2C81C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CursoRN01Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CursoRN00Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CursoRN01Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* CursoRN00Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* CursoRN01Tests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* CursoRN00Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* CursoRN01 */;
+			target = 13B07F861A680F5B00A75B9A /* CursoRN00 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* CursoRN01-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* CursoRN00-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = CursoRN01;
+			path = CursoRN00;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E810328C4C28274F9364844 /* Pods-CursoRN01Tests.debug.xcconfig */;
+			baseConfigurationReference = 4F3BB51A771A3E5200313B99 /* Pods-CursoRN00Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CursoRN01Tests/Info.plist;
+				INFOPLIST_FILE = CursoRN00Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN01.app/CursoRN01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN00.app/CursoRN00";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4B4BCF2F927473129B221C2 /* Pods-CursoRN01Tests.release.xcconfig */;
+			baseConfigurationReference = 1B773EB0D3926A77DCFEF034 /* Pods-CursoRN00Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CursoRN01Tests/Info.plist;
+				INFOPLIST_FILE = CursoRN00Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN01.app/CursoRN01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN00.app/CursoRN00";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 913FDD5F1E5AD96531D9ACEF /* Pods-CursoRN01.debug.xcconfig */;
+			baseConfigurationReference = 7176460D49342B918931632D /* Pods-CursoRN00.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = CursoRN01/Info.plist;
+				INFOPLIST_FILE = CursoRN00/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CursoRN01;
+				PRODUCT_NAME = CursoRN00;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75CAC074E7099BB5789391A /* Pods-CursoRN01.release.xcconfig */;
+			baseConfigurationReference = 89F95632928324D5F6FFBA4A /* Pods-CursoRN00.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = CursoRN01/Info.plist;
+				INFOPLIST_FILE = CursoRN00/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CursoRN01;
+				PRODUCT_NAME = CursoRN00;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D4B4C91A5862245AFC49599 /* Pods-CursoRN01-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2CB582115C60E690E3FBDFEA /* Pods-CursoRN00-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CursoRN01-tvOS/Info.plist";
+				INFOPLIST_FILE = "CursoRN00-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN01-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN00-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCD008D3823E2991C8289E3A /* Pods-CursoRN01-tvOS.release.xcconfig */;
+			baseConfigurationReference = 7FD2D418866E567AB5950CC3 /* Pods-CursoRN00-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CursoRN01-tvOS/Info.plist";
+				INFOPLIST_FILE = "CursoRN00-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN01-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN00-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DAF536A9B1813C5221652DF /* Pods-CursoRN01-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6182DFF2A32D96E96BF12181 /* Pods-CursoRN00-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CursoRN01-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CursoRN00-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN01-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN00-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN01-tvOS.app/CursoRN01-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN00-tvOS.app/CursoRN00-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA02A07CCC3AF730DE230398 /* Pods-CursoRN01-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6F1D98D97F8AD11B0B1A5833 /* Pods-CursoRN00-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CursoRN01-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CursoRN00-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN01-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CursoRN00-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN01-tvOS.app/CursoRN01-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CursoRN00-tvOS.app/CursoRN00-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CursoRN01Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CursoRN00Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CursoRN01" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CursoRN00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN01-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN00-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN01-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CursoRN00-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CursoRN01" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CursoRN00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
