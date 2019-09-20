@@ -7,43 +7,66 @@
  */
 
 import React, {Component} from 'react';
-import {SafeAreaView, Text, StyleSheet, View, Image} from 'react-native';
-import Comentario from './Comentario.js';
+import {SafeAreaView, Text, StyleSheet, ActivityIndicator} from 'react-native';
+import Comentario from './src/comentario/components/Comentario';
 
-//https://media.metrolatam.com/2018/08/23/mujer1-234853dc0e0619b7be7317871413304c-1200x800.jpg
-
-class FlexPractica extends Component {
-  render() {
-    return (
-      <SafeAreaView style={styles.container}>
-        <View style={styles.viewArriba}>
-          <Text style={styles.textArriba}>Arriba</Text>
-          <Text style={styles.textArriba}>------</Text>
-        </View>
-        <View style={styles.viewCentro}>
-          <Text style={styles.textArriba}>Centro</Text>
-
-          <View>
-            <Text style={styles.textArriba}>------</Text>
-            <Text>hola</Text>
-          </View>
-        </View>
-        <View style={styles.viewAbajo}>
-          <Text style={styles.textArriba}>Abajo</Text>
-          <Text style={styles.textArriba}>------</Text>
-        </View>
-      </SafeAreaView>
-    );
-  }
-}
+//    https://media.metrolatam.com/2018/08/23/mujer1-234853dc0e0619b7be7317871413304c-1200x800.jpg
 
 class App extends Component {
+  state = {
+    comentarios: [],
+    estaCargando: true,
+  };
+
+  componentDidMount() {
+    //una llamada a un API que traiga los comentarios...
+    setTimeout(() => {
+      this.setState({
+        comentarios: [
+          {
+            nombre: 'José',
+            fecha: '10 de Septiembre de 2019',
+            titulo: 'Hola que hace',
+            descripcion: 'Recibiendo curso o que hace',
+          },
+          {
+            nombre: 'Melvin',
+            fecha: '11 de Septiembre de 2019',
+            titulo: 'Muy buen día',
+            descripcion: 'En estos momentos recibo curso',
+          },
+          {
+            nombre: 'Jorge',
+            fecha: '12 de Septiembre de 2019',
+            titulo: 'Que pasa chavales',
+            descripcion: 'Recibiendo curso',
+          },
+        ],
+        estaCargando: false,
+      });
+    }, 4000);
+  }
+
   render() {
+    const {comentarios, estaCargando} = this.state;
+    //ES6..
     return (
       <SafeAreaView style={styles.container}>
-        <Comentario />
-        <Comentario />
-        <Comentario />
+        {estaCargando ? (
+          <ActivityIndicator style={{width: 300}} />
+        ) : (
+          comentarios.map((item, i) => {
+            return (
+              <Comentario
+                key={i}
+                nombre={item.nombre}
+                fecha={item.fecha}
+                titulo={item.titulo}
+                descripcion={item.descripcion}
+              />
+            );
+          })
+        )}
       </SafeAreaView>
     );
   }

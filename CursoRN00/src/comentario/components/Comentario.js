@@ -3,31 +3,29 @@ import {SafeAreaView, Text, StyleSheet, View, Image} from 'react-native';
 
 //https://media.metrolatam.com/2018/08/23/mujer1-234853dc0e0619b7be7317871413304c-1200x800.jpg
 
-class Comentario extends Component {
-  render() {
-    return (
-      <View style={style.container}>
-        <View style={style.viewFoto}>
-          <Image
-            style={{width: 50, height: 50}}
-            source={{
-              uri:
-                'https://media.metrolatam.com/2018/08/23/mujer1-234853dc0e0619b7be7317871413304c-1200x800.jpg',
-            }}
-          />
+function Comentario(props) {
+  return (
+    <View style={style.container}>
+      <View style={style.viewFoto}>
+        <Image
+          style={{width: 50, height: 50}}
+          source={{
+            uri:
+              'https://media.metrolatam.com/2018/08/23/mujer1-234853dc0e0619b7be7317871413304c-1200x800.jpg',
+          }}
+        />
 
-          <View style={style.viewNombres}>
-            <Text style={style.nombres}>Sindy Garcia</Text>
-            <Text style={style.fecha}>06 de septiembre de 2019</Text>
-          </View>
-        </View>
-        <View style={style.viewTitulos}>
-          <Text style={style.titulo}>Titulo</Text>
-          <Text style={style.descripcion}>Descripción</Text>
+        <View style={style.viewNombres}>
+          <Text style={style.nombres}>{props.nombre}</Text>
+          <Text style={style.fecha}>{props.fecha}</Text>
         </View>
       </View>
-    );
-  }
+      <View style={style.viewTitulos}>
+        <Text style={style.titulo}>{props.titulo}</Text>
+        <Text style={style.descripcion}>{props.descripcion}</Text>
+      </View>
+    </View>
+  );
 }
 const style = StyleSheet.create({
   container: {
